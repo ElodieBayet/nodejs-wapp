@@ -216,10 +216,6 @@ PeriodSchema {
 }
 ```
 
-#### Relations
-
-![Diagram of relations](/assets/relational_diagram.jpg)
-
 ---
 
 ## 3 - Méthodologie
