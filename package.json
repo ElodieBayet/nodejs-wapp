@@ -4,7 +4,7 @@
   "engines": {
     "node": "12.18.3"
   },
-  "description": "Example of web development in Node.js",
+  "description": "Example of web development with Node.js",
   "main": "server.js",
   "scripts": {
     "start": "node ./server.js",

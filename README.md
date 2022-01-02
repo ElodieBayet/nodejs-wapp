@@ -12,22 +12,22 @@ Le but n'est pas de fournir publiquement un _modèle_ ou un _template_ intégrab
 ---
 
 ## Sommaire 
-0. [0 - Présentation](#0---presentation)
+0. [Présentation](#0---présentation)
     * [0.0 - Objectifs](#0.0---objectifs)
-    * [0.1 - Évolution](#0.1---evolution)
+    * [0.1 - Évolution](#0.1---évolution)
     * [0.2 - Utilisation](#0.3---utilisation)
-1. [1 - Démarrage](#1---demarrage)
-    * [1.0 - Prérequis](#1.0---prerequis)
+1. [Démarrage](#1---demarrage)
+    * [1.0 - Prérequis](#1.0---prérequis)
     * [1.1 - Installation](#1.1---installation)
     * [1.2 - Configuration](#1.2---configuration)
-2. [2 - Structure](#2---structure)
+2. [Structure](#2---structure)
     * [2.0 - Architecture SEO](#2.0---architecture-seo)
     * [2.1 - Dossiers et fichiers](#2.1---dossiers-et-fichiers)
-    * [2.2 - Base de données](#2.2---base-de-donnees)
-3. [3 - Méthodologie](#3---methodologie)
-    * [3.0 - Développement](#3.0---developpement)
+    * [2.2 - Base de données](#2.2---base-de-données)
+3. [Méthodologie](#3---méthodologie)
+    * [3.0 - Développement](#3.0---développement)
     * [3.1 - Partie Asynchrone](#3.1---partie-asynchrone)
-4. [4 - Remarques](#4---remarques)
+4. [Remarques](#4---remarques)
 
 ---
 
@@ -151,7 +151,7 @@ Afin de présenter des urls propre, ce sont des clés `tag` qui sont employées 
 
 #### Schéma
 
-![Diagram of website structure](/assets/architecture_seo.jpg)
+![Website Tree](/assets/fig/architecture_seo.jpg)
 
 
 ### 1.1 - Dossiers et fichiers
