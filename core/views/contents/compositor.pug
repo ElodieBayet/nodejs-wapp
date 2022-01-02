@@ -1,0 +1,27 @@
+extends ../layout.pug
+include ../components/bypass-links
+//- Compositor's Description
+block content
+    section
+        h2 Présentation succinte
+        div.grid.md
+            figure.col-50
+                img(src=compositor.figure, alt=`Image de ${compositor.name}`)
+                figcaption Source Wikipédia
+            div.col-50
+                h3 Identité
+                p
+                    strong #{title} 
+                    | à vécu #{compositor.timelaps} après J.C. 
+                    span.light &mdash; soit pendant #{compositor.life} &mdash; 
+                    | et est originaire de 
+                    strong #{compositor.origin}
+                h4 Périodes musicales&nbsp;:
+                ul.list
+                    each period in compositor.period
+                        li: a(href=`../period/${period.tag}`) #{period.name}
+                    else 
+                        li.nothing Aucune période répertoriée.
+    //- Shortcut navigation throughout register
+    +bypass-links(previous, next)
+    

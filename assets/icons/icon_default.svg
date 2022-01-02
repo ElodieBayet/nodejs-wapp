@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Abstract" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 480 480" style="enable-background:new 0 0 480 480;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.66;fill:#F0F0F2;}
+	.st1{opacity:0.66;fill:#0B0B0F;}
+	.st2{fill:url(#White_1_);}
+</style>
+<rect id="Green" class="st0" width="480" height="480"/>
+<polygon id="Grey" class="st1" points="120,360 120,240 0,240 0,480 240,480 240,360 "/>
+<linearGradient id="White_1_" gradientUnits="userSpaceOnUse" x1="120" y1="120" x2="480" y2="480" gradientTransform="matrix(1 0 0 -1 0 480)">
+	<stop  offset="0" style="stop-color:#0C7F8E"/>
+	<stop  offset="0.85" style="stop-color:#12BED5"/>
+</linearGradient>
+<polygon id="White" class="st2" points="480,0 240,0 240,120 120,120 120,360 360,360 360,240 480,240 "/>
+</svg>

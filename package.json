@@ -1,0 +1,36 @@
+{
+  "name": "nodejs-wapp",
+  "version": "1.0.0",
+  "engines": {
+    "node": "12.18.3"
+  },
+  "description": "Example of Node.js web developpement",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./server.js",
+    "prod": "env-cmd npm start",
+    "dev": "nodemon",
+    "debug": "env-cmd -f ./.env.dev nodemon"
+  },
+  "keywords": [
+    "JavaScript",
+    "Node.js",
+    "Express",
+    "MongoDB",
+    "Pug"
+  ],
+  "author": "Elodie Bayet",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.1",
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "mongoose": "^6.0.12",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "env-cmd": "^10.1.0",
+    "nodemon": "^2.0.12"
+  }
+}

@@ -1,0 +1,19 @@
+//- Records List
+mixin records-list(register)
+    each record in register
+        - let $li = '';
+        - let $tags = '';
+        if record.period
+            each period in record.period
+                - $li += `<li>${period.name}</li>`;
+                - $tags += `${period.tag}_`
+        div.divided._target(data-tag=$tags)
+            h3
+                a(href=`./${route}/${record.tag}`) !{record.name} 
+                    span.light :: #{record.timelaps}
+            //- Only for compositors list
+            if record.period
+                ul.listitem.apart
+                    != $li
+    else
+        div.divided: p.nothing Aucun élément trouvé.

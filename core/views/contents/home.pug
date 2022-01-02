@@ -1,0 +1,25 @@
+extends ../layout.pug
+//- Home page content
+block append styles
+    link(rel="stylesheet", href="/css/home.css")
+block content
+    section
+        h2 Résumé chronologique
+        p L'inforgraphie ci-dessous représente une vision simplifiée des différentes périodes en 
+            strong Musique occidentale savante
+            |  ainsi qu'une liste 
+            em.light &mdash; non-exhaustive &mdash; 
+            | des quelques compositeurs et compositrices de chaque époque. 
+        p Cette application web est une simple démo de 
+            strong développement Fullstack en JavaScript
+            | . Ainsi, les personnages référents de la période 
+            em Contemporaine 
+            | ont été volontairement omis.
+        div#chronographic
+            each period in periods
+                div(data-begin=period.begin, data-delay=period.delay, data-tag=period.tag)
+                    a.route(href=`./period/${period.tag}` title="Détail sur la période")
+                        span.blind #{period.name}
+                    h3 #{period.name}
+            else
+                p.nothing Aucune période trouvée.

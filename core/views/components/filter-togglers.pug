@@ -1,0 +1,14 @@
+//- Filter Togglers
+mixin filter-togglers(togglers)
+    div#filter.filters
+        h4 Filtrer
+        ul.listitem.center
+            each toggler in togglers
+                li
+                    a.link.toggle(href=`#${toggler.tag}`, title="Filtrer")
+                        span &nbsp;
+                        | #{toggler.name}
+            li
+                a.link.anchor.disabled(href=`#reseter`, title="Inverser")
+                        span &nbsp;
+                        | Effacer la sélection

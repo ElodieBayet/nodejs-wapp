@@ -1,0 +1,11 @@
+extends ../layout.pug
+include ../components/records-list
+include ../components/filter-togglers
+//- Register Page for Periods or Compositors
+block content
+    section
+        h2 Éléments répertoriés
+        if filters
+            +filter-togglers(filters)
+        //- Loop of records
+        +records-list(records)

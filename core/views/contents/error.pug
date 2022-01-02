@@ -1,0 +1,7 @@
+extends ../layout.pug
+//- Errors
+block content
+    section
+        h2 Une erreur est survenue !{error.status}
+        p Impossible de donner suite à cette requête.
+        pre !{message}

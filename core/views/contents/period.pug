@@ -1,0 +1,25 @@
+extends ../layout.pug
+include ../components/bypass-links
+//- Period Description
+block content
+    section
+        h2 Description succinte
+        div.grid.md
+            div.col-50
+                h3 Durée&nbsp;:
+                p La période 
+                    strong “#{title}” 
+                    | s'étend 
+                    strong #{period.timelaps} 
+                    | après J.C. 
+                    span.light &mdash; soit pendant #{period.duration}
+                p #{period.description}
+            div.col-50
+                h3 Compositeur.rice.s&nbsp;:
+                ul.list
+                    each compositor in compositors 
+                        li #{compositor.name} (#{compositor.timelaps})
+                    else
+                        li.nothing Aucun.e compositeur.rice répertorié.e.
+    //- Shortcut navigation throughout register
+    +bypass-links(previous, next)

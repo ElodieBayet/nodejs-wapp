@@ -1,0 +1,89 @@
+include ./components/app-logo
+//- Layout
+doctype html
+html.nojs(lang="fr")
+	head
+		meta(charset="utf-8")
+		meta(name="viewport", content="width=device-width, initial-scale=1")
+		title !{title} | Node.js Wapp
+		//- Styles: appended by each component
+		block styles
+			link(rel="stylesheet", href="/css/base-min.css")
+			link(rel="stylesheet", href="/css/components-min.css")
+			link(rel="stylesheet", href="/css/theme-min.css")
+		//- Identity and Parameters
+		meta(name="description", content=description)
+		meta(name="author", content="Elodie Bayet, www.elodiebayet.com")
+		meta(name="copyright", content="Elodie Bayet © 2021")
+		meta(name="theme-color", content="#242428")
+		link(href="", rel="manifest", type="application/manifest+json")
+		link(href="/trademark/nodejswapp_favicon.png", rel="icon", type="image/png")
+		//- Sharing Properties
+		//- Scripts: appended by each component
+		block scripts
+			script(src="/js/main.js", type="module")
+	body
+		//- Page Header
+		header#uihead.closed
+			div.inner
+				div.headline
+					+app-logo
+				div.navigation
+					nav.mainmenu
+						ul
+							li: a(href="/", title="Aller sur la page", class=route==='home' ? 'selected' : '') Accueil
+							li: a(href="/period", title="Aller sur la page", class=route==='period' ? 'selected' : '') Périodes
+							li: a(href="/compositor", title="Aller sur la page", class=route==='compositor' ? 'selected' : '') Compositeurs
+							li: a(href="/info", title="Aller sur la page", class=route==='info' ? 'selected' : '') Informations
+			div.edge &nbsp;
+			div.edge &nbsp;
+			button(type="button"): span.blind Ouvrir le menu
+		//- Page Main Section
+		main
+			header
+				h1 !{title}
+				//- Share Box
+				div.share
+					ul
+						li
+							a.ideogram.tooltip(href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fdemo.elodiebayet.com", title="Partager sur Facebook")
+								span.symbol: img(src="https://www.elodiebayet.com/store/icons/share_facebook_wt.svg", alt="Icon Facebook", width="36", height="36")
+								span.tip.top Partager sur Facebook
+						li
+							a.ideogram.tooltip(href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fdemo.elodiebayet.com&title=Projets%20demo&source=ElodieBayet", title="Partager sur Linked In")
+								span.symbol: img(src="https://www.elodiebayet.com/store/icons/share_linkedin_wt.svg", alt="Icon Linked In", width="36", height="36")
+								span.tip.top Partager sur Linked In
+						li
+							a.ideogram.tooltip(href="mailto:?Subject=<?=$title?>&amp;Body=https%3A%2F%2Fdemo.elodiebayet.com", title="Envoyer par e-mail")
+								span.symbol: img(src="https://www.elodiebayet.com/store/icons/share_email_wt.svg", alt="Icon Email", width="36", height="36")
+								span.tip.top Envoyer par e-mail
+			//- If no JS
+			noscript
+				strong Le JavaScript n'est pas activé&nbsp;:: 
+				|	L'application ne pourra pas fonctionner.
+			//- Page Content
+			block content
+		//- Page Footer
+		footer#uifoot
+			div.headline
+				div
+					+app-logo
+				nav.socialmenu
+					h3.blind Menu social
+					ul
+						li
+							a.ideogram.tooltip(href="https://www.linkedin.com/in/elodiebayet", title="Voir le profil", target="_blank", rel="noreferrer")
+								span.symbol: img(src="https://www.elodiebayet.com/store/icons/profile_linkedin_bl.svg", alt="Logo Linked In", width="28", height="28")
+								span.tip.top Profil Linked In
+						li
+							a.ideogram.tooltip(href="https://bitbucket.org/ElodieBayet", title="Voir le profil", target="_blank", rel="noreferrer")
+								span.symbol: img(src="https://www.elodiebayet.com/store/icons/profile_bitbucket_bl.svg", alt="Logo Bitbucket", width="28", height="28")
+								span.tip.top Profil Bitbucket
+						li
+							a.ideogram.tooltip(href="https://github.com/ElodieBayet", title="Voir le profil", target="_blank", rel="noreferrer")
+								span.symbol: img(src="https://www.elodiebayet.com/store/icons/profile_github_bl.svg", alt="Logo GitHub", width="28", height="28")
+								span.tip.top Profil GitHub
+			div#author
+				p Développé par 
+					strong Elodie Bayet ©&nbsp;2020 
+					| - Tous droits réservés

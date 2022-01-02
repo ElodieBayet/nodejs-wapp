@@ -1,0 +1,9 @@
+# Folders
+node_modules/
+.vscode/
+_notes/
+
+# Files
+*.log
+Thumbs.db
+.env

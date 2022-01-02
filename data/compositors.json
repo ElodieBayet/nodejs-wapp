@@ -1,0 +1,1335 @@
+[{
+  "_id": {
+    "$oid": "611b6c2ed7ab7d8cad088529"
+  },
+  "tag": "guido-d-arezzo",
+  "lastname": "D'AREZZO",
+  "firstname": "Guido",
+  "birth": {
+    "$date": {
+      "$numberLong": "-30862599450000"
+    }
+  },
+  "death": {
+    "$date": {
+      "$numberLong": "-29537309850000"
+    }
+  },
+  "origin": "Italie",
+  "figure": "https://upload.wikimedia.org/wikipedia/commons/1/12/Guido_Aretino.jpg",
+  "period": [
+    {
+      "$oid": "611b69fad7ab7d8cad08851e"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "611b8b1fd7ab7d8cad088530"
+  },
+  "tag": "hildegard-von-bingen",
+  "lastname": "VON BINGEN",
+  "firstname": "Hildegard",
+  "birth": {
+    "$date": {
+      "$numberLong": "-27495245850000"
+    }
+  },
+  "death": {
+    "$date": {
+      "$numberLong": "-24939188250000"
+    }
+  },
+  "origin": "Allemagne",
+  "figure": "https://upload.wikimedia.org/wikipedia/commons/0/09/Selestat_St._Fides_-_Fenster_3a_Hildegard.jpg",
+  "period": [
+    {
+      "$oid": "611b69fad7ab7d8cad08851e"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6182519fc9f63e2769a12213"
+  },
+  "tag": "guillaume-de-machaut",
+  "lastname": "DE MACHAUT",
+  "firstname": "Guillaume",
+  "birth": {
+    "$date": {
+      "$numberLong": "-20511968400000"
+    }
+  },
+  "death": {
+    "$date": {
+      "$numberLong": "-18681670800000"
+    }
+  },
+  "origin": "France",
+  "figure": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Machaut_1.jpg",
+  "period": [
+    {
+      "$oid": "611b69fad7ab7d8cad08851e"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "618256e8c9f63e2769a12216"
+  },
+  "tag": "philippe-de-vitry",
+  "lastname": "DE VITRY",
+  "firstname": "Philippe",
+  "birth": {
+    "$date": {
+      "$numberLong": "-21400905600000"
+    }
+  },
+  "death": {
+    "$date": {
+      "$numberLong": "-19204358400000"
+    }
+  },
+  "origin": "France",
+  "figure": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Philippe_de_Vitry.jpg",
+  "period": [
+    {
+      "$oid": "611b69fad7ab7d8cad08851e"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "618256e8c9f63e2769a12214"
+  },
+  "tag": "perotin",
+  "lastname": "LE GRAND",
+  "firstname": "Pérotin",
+  "birth": {
+    "$date": {
+      "$numberLong": "-25561152000000"
+    }
+  },
+  "death": {
+    "$date": {
+      "$numberLong": "-23320627200000"
+    }
+  },
+  "origin": "France",
+  "figure": "https://upload.wikimedia.org/wikipedia/commons/0/09/P%C3%A9rotin_photo.jpg",
+  "period": [
+    {
+      "$oid": "611b69fad7ab7d8cad08851e"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "618256e8c9f63e2769a12215"
+  },
+  "tag": "adam-de-la-halle",
+  "lastname": "DE LA HALLE",
+  "firstname": "Adam",
+  "birth": {
+    "$date": {
+      "$numberLong": "-23036544000000"
+    }
+  },
+  "death": {
+    "$date": {
+      "$numberLong": "-21490243200000"
+    }
+  },
+  "origin": "France",
+  "figure": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Adam_de_la_halle.jpg",
+  "period": [
+    {
+      "$oid": "611b69fad7ab7d8cad08851e"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "61825af3c9f63e2769a1221b"
+  },
+  "tag": "giovanni-pierluigi-da-palestrina",
+  "lastname": "PIERLUIGI DA PALESTRINA",
+  "firstname": "Giovanni",
+  "birth": {
+    "$date": {
+      "$numberLong": "-14042822400000"
+    }
+  },
+  "death": {
+    "$date": {
+      "$numberLong": "-11862604800000"
+    }
+  },
+  "origin": "Italie",
+  "figure": "https://upload.wikimedia.org/wikipedia/commons/1/18/Giovanni_Pierluigi_da_Palestrina.jpg",
+  "period": [
+    {
+      "$oid": "611bab1cd7ab7d8cad088538"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "61825af3c9f63e2769a12218"
+  },
+  "tag": "johannes-ockeghem",
+  "lastname": "OCKEGHEM",
+  "firstname": "Johannes",
+  "birth": {
+    "$date": {
+      "$numberLong": "-17356348800000"
+    }
+  },
+  "death": {
+    "$date": {
+      "$numberLong": "-14894899200000"
+    }
+  },
+  "origin": "Belgique",
+  "figure": "https://upload.wikimedia.org/wikipedia/commons/5/54/Johannes%2BOckeghem.png",
+  "period": [
+    {
+      "$oid": "611bab1cd7ab7d8cad088538"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "61825af3c9f63e2769a12217"
+  },
+  "tag": "guillaume-dufay",
+  "lastname": "DUFAY",
+  "firstname": "Guillaume",
+  "birth": {
+    "$date": {
+      "$numberLong": "-18082022400000"
+    }
+  },
+  "death": {
+    "$date": "1970-01-01T00:00:00Z"
+  },
+  "origin": "Belgique",
+  "figure": "https://upload.wikimedia.org/wikipedia/commons/4/4f/DufayBinchois.jpg",
+  "period": [
+    {
+      "$oid": "611bab1cd7ab7d8cad088538"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "61825af3c9f63e2769a12219"
+  },
+  "tag": "josquin-des-pres",
+  "lastname": "DES PRÉS",
+  "firstname": "Josquin",
+  "birth": {
+    "$date": {
+      "$numberLong": "-16725196800000"
+    }
+  },
+  "death": {
+    "$date": "1970-01-01T00:00:00Z"
+  },
+  "origin": "France",
+  "figure": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Josquin_des_Prez.jpg",
+  "period": [
+    {
+      "$oid": "611bab1cd7ab7d8cad088538"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "61825af3c9f63e2769a1221a"
+  },
+  "tag": "andrea-gabrieli",
+  "lastname": "GABRIELI",
+  "firstname": "Andrea",
+  "birth": {
+    "$date": {
+      "$numberLong": "-13790361600000"
+    }
+  },
+  "death": {
+    "$date": {
+      "$numberLong": "-12128544000000"
+    }
+  },
+  "origin": "Italie",
+  "figure": "/fig/default_portrait.jpg",
+  "period": [
+    {
+      "$oid": "611bab1cd7ab7d8cad088538"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "61825af3c9f63e2769a1221c"
+  },
+  "tag": "roland-de-lassus",
+  "lastname": "DE LASSUS",
+  "firstname": "Roland",
+  "birth": {
+    "$date": {
+      "$numberLong": "-13821984000000"
+    }
+  },
+  "death": {
+    "$date": {
+      "$numberLong": "-11851200000000"
+    }
+  },
+  "origin": "Belgique",
+  "figure": "https://upload.wikimedia.org/wikipedia/commons/2/2c/LassusPortrait.jpg",
+  "period": [
+    {
+      "$oid": "611bab1cd7ab7d8cad088538"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "61826033c9f63e2769a12222"
+  },
+  "tag": "antonio-vivaldi",
+  "lastname": "VIVALDI",
+  "firstname": "Antonio",
+  "birth": {
+    "$date": {
+      "$numberLong": "-9209174400000"
+    }
+  },
+  "death": {
+    "$date": {
+      "$numberLong": "-7208496000000"
+    }
+  },
+  "origin": "Italie",
+  "figure": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Antonio_Vivaldi.jpg",
+  "period": [
+    {
+      "$oid": "61824708c9f63e2769a12207"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "61826033c9f63e2769a1221d"
+  },
+  "tag": "alessandro-scarlatti",
+  "lastname": "SCARLATTI",
+  "firstname": "Alessandro",
+  "birth": {
+    "$date": {
+      "$numberLong": "-9772070400000"
+    }
+  },
+  "death": {
+    "$date": {
+      "$numberLong": "-7705814400000"
+    }
+  },
+  "origin": "Italie",
+  "figure": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Alessandro_Scarlatti.jpg",
+  "period": [
+    {
+      "$oid": "61824708c9f63e2769a12207"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "61826033c9f63e2769a1221e"
+  },
+  "tag": "claudio-monteverdi",
+  "lastname": "MONTEVERDI",
+  "firstname": "Claudio",
+  "birth": {
+    "$date": {
+      "$numberLong": "-12705868800000"
+    }
+  },
+  "death": {
+    "$date": {
+      "$numberLong": "-10290384000000"
+    }
+  },
+  "origin": "Italie",
+  "figure": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Claudio_Monteverdi_4.jpg",
+  "period": [
+    {
+      "$oid": "61824708c9f63e2769a12207"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "61826033c9f63e2769a1221f"
+  },
+  "tag": "jean-baptiste-lully",
+  "lastname": "LULLY",
+  "firstname": "Jean-Baptiste",
+  "birth": {
+    "$date": {
+      "$numberLong": "-10637539200000"
+    }
+  },
+  "death": {
+    "$date": {
+      "$numberLong": "-8923622400000"
+    }
+  },
+  "origin": "Italie",
+  "figure": "https://upload.wikimedia.org/wikipedia/commons/8/85/Paul_Mignard_-_Jean-Baptiste_Lully.jpg",
+  "period": [
+    {
+      "$oid": "61824708c9f63e2769a12207"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "61826033c9f63e2769a12221"
+  },
+  "tag": "georg-friedrich-haendel",
+  "lastname": "HAENDEL",
+  "firstname": "Georg-Friedrich",
+  "birth": {
+    "$date": {
+      "$numberLong": "-8989027200000"
+    }
+  },
+  "death": {
+    "$date": {
+      "$numberLong": "-6649574400000"
+    }
+  },
+  "origin": "Allemagne",
+  "figure": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/George_Frideric_Handel_by_Balthasar_Denner.jpg/1200px-George_Frideric_Handel_by_Balthasar_Denner.jpg",
+  "period": [
+    {
+      "$oid": "61824708c9f63e2769a12207"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "61826033c9f63e2769a12220"
+  },
+  "tag": "johann-sebastian-bach",
+  "lastname": "BACH",
+  "firstname": "Johann-Sebastian",
+  "birth": {
+    "$date": {
+      "$numberLong": "-8985916800000"
+    }
+  },
+  "death": {
+    "$date": {
+      "$numberLong": "-6924499200000"
+    }
+  },
+  "origin": "Allemagne",
+  "figure": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Johann_Sebastian_Bach.jpg",
+  "period": [
+    {
+      "$oid": "61824708c9f63e2769a12207"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "61826033c9f63e2769a12223"
+  },
+  "tag": "jean-philippe-rameau",
+  "lastname": "RAMEAU",
+  "firstname": "Jean-Philippe",
+  "birth": {
+    "$date": {
+      "$numberLong": "-9033696000000"
+    }
+  },
+  "death": {
+    "$date": {
+      "$numberLong": "-6352444800000"
+    }
+  },
+  "origin": "France",
+  "figure": "https://upload.wikimedia.org/wikipedia/commons/9/98/Attribu%C3%A9_%C3%A0_Joseph_Aved%2C_Portrait_de_Jean-Philippe_Rameau_%28vers_1728%29_-_001.jpg",
+  "period": [
+    {
+      "$oid": "61824708c9f63e2769a12207"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "618449162e508ec2a6384763"
+  },
+  "tag": "joseph-haydn",
+  "lastname": "HAYDN",
+  "firstname": "Joseph",
+  "birth": {
+    "$date": {
+      "$numberLong": "-7502774400000"
+    }
+  },
+  "death": {
+    "$date": {
+      "$numberLong": "-5067676800000"
+    }
+  },
+  "origin": "Autriche",
+  "figure": "https://upload.wikimedia.org/wikipedia/commons/0/05/Joseph_Haydn.jpg",
+  "period": [
+    {
+      "$oid": "61824708c9f63e2769a12208"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "618449162e508ec2a6384764"
+  },
+  "tag": "wolfgang-amadeus-mozart",
+  "lastname": "MOZART",
+  "firstname": "Wolfgang Amadeus",
+  "birth": {
+    "$date": {
+      "$numberLong": "-6750921600000"
+    }
+  },
+  "death": {
+    "$date": {
+      "$numberLong": "-5619427200000"
+    }
+  },
+  "origin": "Autriche",
+  "figure": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Wolfgang-amadeus-mozart_1.jpg/1200px-Wolfgang-amadeus-mozart_1.jpg",
+  "period": [
+    {
+      "$oid": "61824708c9f63e2769a12208"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "618449162e508ec2a6384765"
+  },
+  "tag": "ludwig-van-beethoven",
+  "lastname": "VAN BEETHOVEN",
+  "firstname": "Ludwig",
+  "birth": {
+    "$date": {
+      "$numberLong": "-6281251200000"
+    }
+  },
+  "death": {
+    "$date": {
+      "$numberLong": "-4505385600000"
+    }
+  },
+  "origin": "Allemagne",
+  "figure": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Beethoven.jpg",
+  "period": [
+    {
+      "$oid": "61824708c9f63e2769a12208"
+    },
+    {
+      "$oid": "61824708c9f63e2769a12209"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "618449162e508ec2a6384766"
+  },
+  "tag": "carl-maria-von-weber",
+  "lastname": "VON WEBER",
+  "firstname": "Carl Maria",
+  "birth": {
+    "$date": {
+      "$numberLong": "-5778662400000"
+    }
+  },
+  "death": {
+    "$date": {
+      "$numberLong": "-4530787200000"
+    }
+  },
+  "origin": "Allemagne",
+  "figure": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Caroline_Bardua_-_Bildnis_des_Komponisten_Carl_Maria_von_Weber.jpg/1200px-Caroline_Bardua_-_Bildnis_des_Komponisten_Carl_Maria_von_Weber.jpg",
+  "period": [
+    {
+      "$oid": "61824708c9f63e2769a12208"
+    },
+    {
+      "$oid": "61824708c9f63e2769a12209"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "618449162e508ec2a6384767"
+  },
+  "tag": "maria-carolina-wolf",
+  "lastname": "WOLF",
+  "firstname": "Maria Carolina",
+  "birth": {
+    "$date": {
+      "$numberLong": "-7194931200000"
+    }
+  },
+  "death": {
+    "$date": {
+      "$numberLong": "-4715078400000"
+    }
+  },
+  "origin": "Allemagne",
+  "figure": "https://upload.wikimedia.org/wikipedia/commons/5/51/Benda%2C_Maria_Carolina.jpg",
+  "period": [
+    {
+      "$oid": "61824708c9f63e2769a12208"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "618449162e508ec2a6384768"
+  },
+  "tag": "antonio-salieri",
+  "lastname": "SALIERI",
+  "firstname": "Antonio",
+  "birth": {
+    "$date": {
+      "$numberLong": "-6922684800000"
+    }
+  },
+  "death": {
+    "$date": {
+      "$numberLong": "-4564828800000"
+    }
+  },
+  "origin": "Italie",
+  "figure": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Antonio_Salieri_painted_by_Joseph_Willibrord_M%C3%A4hler.jpg/1200px-Antonio_Salieri_painted_by_Joseph_Willibrord_M%C3%A4hler.jpg",
+  "period": [
+    {
+      "$oid": "61824708c9f63e2769a12208"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "618449162e508ec2a6384769"
+  },
+  "tag": "gioachino-rossini",
+  "lastname": "ROSSINI",
+  "firstname": "Gioachino",
+  "birth": {
+    "$date": {
+      "$numberLong": "-5611996800000"
+    }
+  },
+  "death": {
+    "$date": {
+      "$numberLong": "-3191414400000"
+    }
+  },
+  "origin": "Italie",
+  "figure": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Composer_Rossini_G_1865_by_Carjat_-_Restoration.jpg/1200px-Composer_Rossini_G_1865_by_Carjat_-_Restoration.jpg",
+  "period": [
+    {
+      "$oid": "61824708c9f63e2769a12208"
+    },
+    {
+      "$oid": "61824708c9f63e2769a12209"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6184520a2e508ec2a638476a"
+  },
+  "tag": "hector-berlioz",
+  "lastname": "BERLIOZ",
+  "firstname": "Hector",
+  "birth": {
+    "$date": {
+      "$numberLong": "-5240304000000"
+    }
+  },
+  "death": {
+    "$date": {
+      "$numberLong": "-3181478400000"
+    }
+  },
+  "origin": "France",
+  "figure": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Hector_Berlioz_fusain.JPG",
+  "period": [
+    {
+      "$oid": "61824708c9f63e2769a12209"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6184520a2e508ec2a638476b"
+  },
+  "tag": "felix-mendelssohn",
+  "lastname": "MENDELSSOHN",
+  "firstname": "Felix",
+  "birth": {
+    "$date": {
+      "$numberLong": "-5077785600000"
+    }
+  },
+  "death": {
+    "$date": {
+      "$numberLong": "-3854966400000"
+    }
+  },
+  "origin": "Allemagne",
+  "figure": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Felix_Mendelssohn_Bartholdy.jpg/1200px-Felix_Mendelssohn_Bartholdy.jpg",
+  "period": [
+    {
+      "$oid": "61824708c9f63e2769a12209"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6184520a2e508ec2a638476c"
+  },
+  "tag": "franz-schubert",
+  "lastname": "SCHUBERT",
+  "firstname": "Franz",
+  "birth": {
+    "$date": {
+      "$numberLong": "-5456649600000"
+    }
+  },
+  "death": {
+    "$date": "1970-01-01T00:00:00Z"
+  },
+  "origin": "Autriche",
+  "figure": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Franz_Schubert_by_Wilhelm_August_Rieder_1875.jpg",
+  "period": [
+    {
+      "$oid": "61824708c9f63e2769a12208"
+    },
+    {
+      "$oid": "61824708c9f63e2769a12209"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6184520a2e508ec2a638476d"
+  },
+  "tag": "frederic-chopin",
+  "lastname": "CHOPIN",
+  "firstname": "Frédéric",
+  "birth": {
+    "$date": {
+      "$numberLong": "-5044003200000"
+    }
+  },
+  "death": {
+    "$date": {
+      "$numberLong": "-3793276800000"
+    }
+  },
+  "origin": "Pologne",
+  "figure": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Chopin%2C_by_Wodzinska.JPG/1200px-Chopin%2C_by_Wodzinska.JPG",
+  "period": [
+    {
+      "$oid": "61824708c9f63e2769a12209"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6184520a2e508ec2a638476e"
+  },
+  "tag": "robert-schumann",
+  "lastname": "SCHUMANN",
+  "firstname": "Robert",
+  "birth": {
+    "$date": {
+      "$numberLong": "-5034585600000"
+    }
+  },
+  "death": {
+    "$date": {
+      "$numberLong": "-3579350400000"
+    }
+  },
+  "origin": "Allemagne",
+  "figure": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Robert_Schumann_1839.jpg/1200px-Robert_Schumann_1839.jpg",
+  "period": [
+    {
+      "$oid": "61824708c9f63e2769a12209"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6184520a2e508ec2a638476f"
+  },
+  "tag": "clara-schumann-wieck",
+  "lastname": "SCHUMANN-WIECK",
+  "firstname": "Clara",
+  "birth": {
+    "$date": {
+      "$numberLong": "-4743072000000"
+    }
+  },
+  "death": {
+    "$date": {
+      "$numberLong": "-2323094400000"
+    }
+  },
+  "origin": "Allemagne",
+  "figure": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Clara-CC.jpg",
+  "period": [
+    {
+      "$oid": "61824708c9f63e2769a12209"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6184520a2e508ec2a6384770"
+  },
+  "tag": "franz-liszt",
+  "lastname": "LISZT",
+  "firstname": "Franz",
+  "birth": {
+    "$date": {
+      "$numberLong": "-4992163200000"
+    }
+  },
+  "death": {
+    "$date": {
+      "$numberLong": "-2632492800000"
+    }
+  },
+  "origin": "Hongrie",
+  "figure": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Liszt_1858.jpg",
+  "period": [
+    {
+      "$oid": "61824708c9f63e2769a12209"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6184520a2e508ec2a6384771"
+  },
+  "tag": "richard-wagner",
+  "lastname": "WAGNER",
+  "firstname": "Richard",
+  "birth": {
+    "$date": {
+      "$numberLong": "-4942224000000"
+    }
+  },
+  "death": {
+    "$date": {
+      "$numberLong": "-2741270400000"
+    }
+  },
+  "origin": "Allemagne",
+  "figure": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/RichardWagner.jpg/1200px-RichardWagner.jpg",
+  "period": [
+    {
+      "$oid": "61824708c9f63e2769a12209"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6184520a2e508ec2a6384772"
+  },
+  "tag": "giuseppe-verdi",
+  "lastname": "VERDI",
+  "firstname": "Giuseppe",
+  "birth": {
+    "$date": {
+      "$numberLong": "-4930041600000"
+    }
+  },
+  "death": {
+    "$date": {
+      "$numberLong": "-2175177600000"
+    }
+  },
+  "origin": "Italie",
+  "figure": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Verdi-photo-Brogi.jpg",
+  "period": [
+    {
+      "$oid": "61824708c9f63e2769a12209"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6184520a2e508ec2a6384773"
+  },
+  "tag": "johannes-brahms",
+  "lastname": "BRAHMS",
+  "firstname": "Johannes",
+  "birth": {
+    "$date": {
+      "$numberLong": "-4312368000000"
+    }
+  },
+  "death": {
+    "$date": {
+      "$numberLong": "-2295619200000"
+    }
+  },
+  "origin": "Allemagne",
+  "figure": "https://upload.wikimedia.org/wikipedia/commons/1/15/JohannesBrahms.jpg",
+  "period": [
+    {
+      "$oid": "61824708c9f63e2769a12209"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6184520a2e508ec2a6384774"
+  },
+  "tag": "piotr-ilitch-tchaikovski",
+  "lastname": "TCHAÏKOVSKI",
+  "firstname": "Piotr Ilitch",
+  "birth": {
+    "$date": {
+      "$numberLong": "-4092480000000"
+    }
+  },
+  "death": {
+    "$date": {
+      "$numberLong": "-2403100800000"
+    }
+  },
+  "origin": "Russie",
+  "figure": "https://upload.wikimedia.org/wikipedia/commons/0/02/Tchaikowsky.jpg",
+  "period": [
+    {
+      "$oid": "61824708c9f63e2769a12209"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6184520a2e508ec2a6384775"
+  },
+  "tag": "melanie-helene-bonis",
+  "lastname": "BONIS",
+  "firstname": "Mélanie Hélène",
+  "birth": {
+    "$date": {
+      "$numberLong": "-3532608000000"
+    }
+  },
+  "death": {
+    "$date": "1970-01-01T00:00:00Z"
+  },
+  "origin": "France",
+  "figure": "https://upload.wikimedia.org/wikipedia/commons/0/07/Mel_Bonis_1.jpg",
+  "period": [
+    {
+      "$oid": "61824708c9f63e2769a12209"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "61853baa02a1f33074dc46ac"
+  },
+  "tag": "fanny-mendelssohn",
+  "lastname": "MENDELSSOHN",
+  "firstname": "Fanny",
+  "birth": {
+    "$date": {
+      "$numberLong": "-5179478400000"
+    }
+  },
+  "death": {
+    "$date": {
+      "$numberLong": "-3870000000000"
+    }
+  },
+  "origin": "Allemagne",
+  "figure": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Fannymendelssohn-improved.jpg",
+  "period": [
+    {
+      "$oid": "61824708c9f63e2769a12209"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "61853baa02a1f33074dc46ad"
+  },
+  "tag": "helene-de-montgeroult",
+  "lastname": "DE MONTGEROULT",
+  "firstname": "Hélène",
+  "birth": {
+    "$date": {
+      "$numberLong": "-6495436800000"
+    }
+  },
+  "death": {
+    "$date": "1970-01-01T00:00:00Z"
+  },
+  "origin": "France",
+  "figure": "https://upload.wikimedia.org/wikipedia/commons/1/13/Portrait_de_la_m%C3%A8re_de_His_de_la_Salle%2C_Madame_H%C3%A9l%C3%A8ne_de_Montgeroult_-_par_COSWAY_Richard.jpg",
+  "period": [
+    {
+      "$oid": "61824708c9f63e2769a12208"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "61853baa02a1f33074dc46ae"
+  },
+  "tag": "jeanne-louise-farrenc",
+  "lastname": "FARRENC",
+  "firstname": "Jeanne-Louise",
+  "birth": {
+    "$date": {
+      "$numberLong": "-5225443200000"
+    }
+  },
+  "death": {
+    "$date": {
+      "$numberLong": "-2975587200000"
+    }
+  },
+  "origin": "France",
+  "figure": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Louise_Farrenc.jpg/1200px-Louise_Farrenc.jpg",
+  "period": [
+    {
+      "$oid": "61824708c9f63e2769a12208"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "61853baa02a1f33074dc46af"
+  },
+  "tag": "richard-strauss",
+  "lastname": "STRAUSS",
+  "firstname": "Richard",
+  "birth": {
+    "$date": {
+      "$numberLong": "-3331036800000"
+    }
+  },
+  "death": {
+    "$date": {
+      "$numberLong": "-641059200000"
+    }
+  },
+  "origin": "Allemagne",
+  "figure": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Strauss3.jpg",
+  "period": [
+    {
+      "$oid": "61824708c9f63e2769a12209"
+    },
+    {
+      "$oid": "61824708c9f63e2769a1220a"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "61853baa02a1f33074dc46b0"
+  },
+  "tag": "gustav-mahler",
+  "lastname": "MAHLER",
+  "firstname": "Gustav",
+  "birth": {
+    "$date": {
+      "$numberLong": "-3455020800000"
+    }
+  },
+  "death": {
+    "$date": {
+      "$numberLong": "-1850054400000"
+    }
+  },
+  "origin": "Autriche",
+  "figure": "https://upload.wikimedia.org/wikipedia/commons/6/61/Mahler_Gustav_von_Sz%C3%A9kely.png",
+  "period": [
+    {
+      "$oid": "61824708c9f63e2769a12209"
+    },
+    {
+      "$oid": "61824708c9f63e2769a1220a"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "61853baa02a1f33074dc46b1"
+  },
+  "tag": "george-gershwin",
+  "lastname": "GERSHWIN",
+  "firstname": "George",
+  "birth": {
+    "$date": {
+      "$numberLong": "-2248876800000"
+    }
+  },
+  "death": {
+    "$date": {
+      "$numberLong": "-1024848000000"
+    }
+  },
+  "origin": "États-Unis",
+  "figure": "https://upload.wikimedia.org/wikipedia/commons/6/68/George_Gershwin_1937.jpg",
+  "period": [
+    {
+      "$oid": "61824708c9f63e2769a1220a"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "61853baa02a1f33074dc46b2"
+  },
+  "tag": "jean-sibelius",
+  "lastname": "SIBELIUS",
+  "firstname": "Jean",
+  "birth": {
+    "$date": {
+      "$numberLong": "-3283948800000"
+    }
+  },
+  "death": {
+    "$date": {
+      "$numberLong": "-387561600000"
+    }
+  },
+  "origin": "Finlande",
+  "figure": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Jean_Sibelius%2C_1913.jpg/1200px-Jean_Sibelius%2C_1913.jpg",
+  "period": [
+    {
+      "$oid": "61824708c9f63e2769a12209"
+    },
+    {
+      "$oid": "61824708c9f63e2769a1220a"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "61853baa02a1f33074dc46b3"
+  },
+  "tag": "claude-debussy",
+  "lastname": "DEBUSSY",
+  "firstname": "Claude",
+  "birth": {
+    "$date": {
+      "$numberLong": "-3387974400000"
+    }
+  },
+  "death": {
+    "$date": {
+      "$numberLong": "-1633795200000"
+    }
+  },
+  "origin": "France",
+  "figure": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Claude_Debussy_ca_1908%2C_foto_av_F%C3%A9lix_Nadar.jpg",
+  "period": [
+    {
+      "$oid": "61824708c9f63e2769a12209"
+    },
+    {
+      "$oid": "61824708c9f63e2769a1220a"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "61853baa02a1f33074dc46b4"
+  },
+  "tag": "paul-dukas",
+  "lastname": "DUKAS",
+  "firstname": "Paul",
+  "birth": {
+    "$date": {
+      "$numberLong": "-3289824000000"
+    }
+  },
+  "death": {
+    "$date": {
+      "$numberLong": "-1092758400000"
+    }
+  },
+  "origin": "France",
+  "figure": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Paul_Dukas_01.jpg",
+  "period": [
+    {
+      "$oid": "61824708c9f63e2769a12209"
+    },
+    {
+      "$oid": "61824708c9f63e2769a1220a"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "61853baa02a1f33074dc46b5"
+  },
+  "tag": "maurice-ravel",
+  "lastname": "RAVEL",
+  "firstname": "Maurice",
+  "birth": {
+    "$date": {
+      "$numberLong": "-2992262400000"
+    }
+  },
+  "death": {
+    "$date": {
+      "$numberLong": "-1010160000000"
+    }
+  },
+  "origin": "France",
+  "figure": "https://upload.wikimedia.org/wikipedia/commons/7/78/Maurice_Ravel_1925.jpg",
+  "period": [
+    {
+      "$oid": "61824708c9f63e2769a1220a"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "61853baa02a1f33074dc46b6"
+  },
+  "tag": "ottorino-respighi",
+  "lastname": "RESPIGHI",
+  "firstname": "Ottorino",
+  "birth": {
+    "$date": {
+      "$numberLong": "-2855318400000"
+    }
+  },
+  "death": {
+    "$date": {
+      "$numberLong": "-1063641600000"
+    }
+  },
+  "origin": "Italie",
+  "figure": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Respighi_1935.jpg",
+  "period": [
+    {
+      "$oid": "61824708c9f63e2769a1220a"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "61853baa02a1f33074dc46b7"
+  },
+  "tag": "serguei-rachmaninov",
+  "lastname": "RACHMANINOV",
+  "firstname": "Sergueï",
+  "birth": {
+    "$date": {
+      "$numberLong": "-3053174400000"
+    }
+  },
+  "death": {
+    "$date": {
+      "$numberLong": "-844617600000"
+    }
+  },
+  "origin": "Russie",
+  "figure": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Sergei_Rachmaninoff_LOC_30160_cropped.jpg/1200px-Sergei_Rachmaninoff_LOC_30160_cropped.jpg",
+  "period": [
+    {
+      "$oid": "61824708c9f63e2769a12209"
+    },
+    {
+      "$oid": "61824708c9f63e2769a1220a"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "61853baa02a1f33074dc46b8"
+  },
+  "tag": "igor-stravinsky",
+  "lastname": "STRAVINSKY",
+  "firstname": "Igor",
+  "birth": {
+    "$date": {
+      "$numberLong": "-2762524800000"
+    }
+  },
+  "death": {
+    "$date": "1971-04-06T08:00:00Z"
+  },
+  "origin": "Russie",
+  "figure": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Igor_Stravinsky_Essays.jpg",
+  "period": [
+    {
+      "$oid": "61824708c9f63e2769a1220a"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "61853baa02a1f33074dc46b9"
+  },
+  "tag": "serguei-prokofiev",
+  "lastname": "PROKOFIEV",
+  "firstname": "Sergueï",
+  "birth": {
+    "$date": {
+      "$numberLong": "-2483280000000"
+    }
+  },
+  "death": {
+    "$date": {
+      "$numberLong": "-530985600000"
+    }
+  },
+  "origin": "Russie",
+  "figure": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Sergei_Prokofiev_circa_1918_over_Chair_Bain.jpg/1200px-Sergei_Prokofiev_circa_1918_over_Chair_Bain.jpg",
+  "period": [
+    {
+      "$oid": "61824708c9f63e2769a1220a"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "61853baa02a1f33074dc46ba"
+  },
+  "tag": "dmitri-chostakovitch",
+  "lastname": "CHOSTAKOVITCH",
+  "firstname": "Dmitri",
+  "birth": {
+    "$date": {
+      "$numberLong": "-1996588800000"
+    }
+  },
+  "death": {
+    "$date": "1975-08-09T08:00:00Z"
+  },
+  "origin": "Russie",
+  "figure": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Dmitri_Shostakovich_credit_Deutsche_Fotothek_adjusted.jpg/1200px-Dmitri_Shostakovich_credit_Deutsche_Fotothek_adjusted.jpg",
+  "period": [
+    {
+      "$oid": "61824708c9f63e2769a1220a"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "61853baa02a1f33074dc46bb"
+  },
+  "tag": "germaine-tailleferre",
+  "lastname": "TAILLEFERRE",
+  "firstname": "Germaine",
+  "birth": {
+    "$date": {
+      "$numberLong": "-2452003200000"
+    }
+  },
+  "death": {
+    "$date": "1983-11-07T08:00:00Z"
+  },
+  "origin": "France",
+  "figure": "https://upload.wikimedia.org/wikipedia/commons/1/12/Tailleferre_Harcourt_1937_2.jpg",
+  "period": [
+    {
+      "$oid": "61824708c9f63e2769a1220a"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "618bfabecdc5ac8b34d240ab"
+  },
+  "tag": "camille-saint-saens",
+  "lastname": "SAINT-SAËNS",
+  "firstname": "Camille",
+  "birth": {
+    "$date": {
+      "$numberLong": "-4235904000000"
+    }
+  },
+  "death": {
+    "$date": {
+      "$numberLong": "-1516118400000"
+    }
+  },
+  "origin": "France",
+  "figure": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Saintsaens.jpg/1200px-Saintsaens.jpg",
+  "period": [
+    {
+      "$oid": "61824708c9f63e2769a12209"
+    }
+  ]
+}]

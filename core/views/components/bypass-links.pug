@@ -1,0 +1,12 @@
+//- Bypass Links
+mixin bypass-links(previous, next)
+    if previous
+        div#previous.bypass
+            a.holder(href=`./${previous.tag}`, title="Compositeur précédent")
+                span.cursor &nbsp;
+                span.label #{previous.name}
+    if next
+        div#next.bypass
+            a.holder(href=`./${next.tag}`, title="Compositeur suivant")
+                span.cursor &nbsp;
+                span.label #{next.name}

@@ -1,0 +1,65 @@
+extends ../layout.pug
+//- Info page
+block content
+    section
+        h2 Description de “MusicalEras”
+        div.grid.md
+            div.col-50
+                h3 Projet
+                p Cette application est un exemple de 
+                    strong développement Fullstack en JavaScript. 
+                    | Elle n'a pas pour vocation de constituer une référence historique absolument complète, et demeurre 
+                    strong très approximative tant dans les dates que dans les origines.
+                h4 Objectifs
+                ul.list
+                    li montrer à quoi ressemble une application web basique développée avec 
+                        strong Node.js
+                    li idendifier les tâches qui incombent au Back-End 
+                        em.light – notamment le travail du serveur pour chaque requête
+                    li introduire la communication désynchronisé 
+                        em Back-End / Front-End
+            div.col-50
+                h3 Thématique
+                p La thématique est celle de la 
+                    strong Musique occidentale savante.
+                    |  L'application est un portail d'aperçu des périodes qui se sont succédées à travers les âges. Chaque période répertorie également quelques compositeurs et compositrices emblématiques.
+                h4 Sources
+                p La pertinence historique n'étant pas le but premier de cette application. La source principale n'est autre que la page 
+                    a(href="https://fr.wikipedia.org/wiki/Chronologie_de_la_musique_classique_occidentale", rel="noreferer", target="_blank") Chronologie en musique classique occidentale 
+                    | sur Wikipédia.
+        div.grid.md
+            div.col-50
+                h3 Étude
+                p Chaque requête est associée à son propre traitement&nbsp;: l'avantage est de distinguer clairement ce qui est à faire pour chaque cas de figure ; l'inconvénient est l'éternel duplication de code. En effet, il est vivement recommandé de progressivement 
+                    em modéliser
+                    | les traitements afin de limiter cette redondance. L'emploi de 
+                    strong TypeScript 
+                    | offre d'ailleurs d'excellentes solutions à ce problème.
+            div.col-50
+                h3 Technologies
+                div.grid.sm
+                    div.col-25.badge
+                        div.icon: img(src="https://www.elodiebayet.com/store/icons/icon_nodejs.svg", alt="Node.js Logo")
+                        div.title: p Node.js
+                    div.col-25.badge
+                        div.icon: img(src="https://www.elodiebayet.com/store/icons/icon_npm.svg", alt="NPM Logo")
+                        div.title: p NPM
+                    div.col-25.badge
+                        div.icon: img(src="https://www.elodiebayet.com/store/icons/icon_git.svg", alt="GIT Logo")
+                        div.title: p Git
+                    div.col-25.badge
+                        div.icon: img(src="https://www.elodiebayet.com/store/icons/icon_js.svg", alt="JavaScript Logo")
+                        div.title: p JavaScript
+                    div.col-25.badge
+                        div.icon: img(src="https://www.elodiebayet.com/store/icons/icon_mongodb.svg", alt="MongoDB Logo")
+                        div.title: p MongoDB
+                    div.col-25.badge
+                        div.icon: img(src="https://www.elodiebayet.com/store/icons/icon_nosql.svg", alt="NoSQL Logo")
+                        div.title: p NoSQL
+                    div.col-25.badge
+                        div.icon: img(src="https://www.elodiebayet.com/store/icons/icon_pug.svg", alt="Pug Logo")
+                        div.title: p Pug
+                    div.col-25.badge
+                        div.icon: img(src="https://www.elodiebayet.com/store/icons/icon_html.svg", alt="HTML 5 Logo")
+                        div.title: p HTML 5
+                    

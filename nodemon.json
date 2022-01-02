@@ -1,0 +1,4 @@
+{
+    "watch": ["core/"],
+    "exec": "node ./server.js"
+}
